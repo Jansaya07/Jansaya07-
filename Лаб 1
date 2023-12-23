@@ -1,0 +1,15 @@
+```python
+number = 12345
+
+string_number = str(number)
+
+list_number = list(string_number)
+
+sorted_list_number = sorted(list_number, reverse=True)
+
+sorted_string_number = ''.join(sorted_list_number)
+
+sorted_number = int(sorted_string_number)
+
+print(sorted_number) 
+```
